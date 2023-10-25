@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}
+
+h1{
+    padding: 3px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 3px;
+}
+
+a{
+    padding-left: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover{
+    color: blue;
+    text-decoration-line: underline;
+    text-decoration-color: lightgreen;
+    text-decoration-thickness: 3px;
+}
